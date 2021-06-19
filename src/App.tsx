@@ -3,12 +3,7 @@ import './App.css';
 
 
 const sayHello = () => {
-    fetch('/api/helloWorld',{
-        method: "GET",
-        headers: {
-            "access-control-allow-origin" : "*",
-            "Content-type": "application/json; charset=UTF-8"
-        }})
+    fetch('/api/helloWorld')
         .then(response => {
             console.log("hello back to you");
             console.log(response);
