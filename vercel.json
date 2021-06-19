@@ -1,5 +1,5 @@
 {
-  "rewrites": [
+  "redirects": [
     { "source": "/api/:match*", "destination": "REACT_APP_API_URL/:match*" }
   ]
 }
