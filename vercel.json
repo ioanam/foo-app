@@ -1,0 +1,5 @@
+{
+  "redirects": [
+    { "source": "/api/:match*", "destination": "https://europe-west1-hola-cd616.cloudfunctions.net/:match*" }
+  ]
+}
