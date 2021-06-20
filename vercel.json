@@ -1,5 +1,5 @@
 {
-  "redirects": [
+  "rewrites": [
     { "source": "/mockapi/:match*", "destination": "https://europe-west1-hola-cd616.cloudfunctions.net/:match*" },
     { "source": "/api/:match*", "destination": "https://us-central1-vaultinum-kys-dev.cloudfunctions.net/api/:match*" }
   ]
