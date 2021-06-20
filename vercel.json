@@ -1,5 +1,6 @@
 {
-  "rewrites": [
+  "redirects": [
+    { "source": "/mockapi/:match*", "destination": "REACT_APP_API_URL1/:match*" },
     { "source": "/api/:match*", "destination": "REACT_APP_API_URL/:match*" }
   ]
 }
