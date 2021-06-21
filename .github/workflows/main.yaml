@@ -31,7 +31,7 @@ jobs:
               configFile="vercel.prod.json"
             fi
 
-            npx vercel --token ${VERCEL_TOKEN} $prodRun -A configFile
+            npx vercel --token ${VERCEL_TOKEN} $prodRun -A $configFile
           env:
             VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
             VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
