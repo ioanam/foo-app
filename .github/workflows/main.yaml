@@ -23,7 +23,7 @@ jobs:
       - name: Test
         run: npm run test
       - name: Deploy to Vercel
-          run: |
+        run: |
             prodRun=""
             configFile="vercel.json"
             if [[ ${GITHUB_REF} == "refs/heads/main" ]]; then
