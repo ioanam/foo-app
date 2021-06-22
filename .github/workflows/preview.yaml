@@ -1,4 +1,4 @@
-name: CI and CD
+name: Dev
 
 on:
   [push]
