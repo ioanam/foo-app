@@ -29,9 +29,8 @@ function App() {
         <div className="App">
             <header className="App-header">
                 <button onClick={sayHello}>Hello</button>
-                <p>${process.env.REACT_APP_API_URL1}</p>
+                <p>Var ENV</p>
                 <button onClick={sayHelloFromVaultinum}>Hello From V</button>
-                <p>${process.env.REACT_APP_API_URL}</p>
             </header>
         </div>
     );
