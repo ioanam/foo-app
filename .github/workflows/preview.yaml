@@ -1,7 +1,9 @@
 name: Dev
 
 on:
-  [push]
+  push:
+    branches-ignore:
+      - main
 
 jobs:
   build:
