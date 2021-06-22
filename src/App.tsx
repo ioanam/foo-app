@@ -29,7 +29,7 @@ function App() {
         <div className="App">
             <header className="App-header">
                 <button onClick={sayHello}>Hello</button>
-                <p>Var ENV</p>
+                <p>Var ENV {process.env.REACT_APP_VAR_TEST}</p>
                 <button onClick={sayHelloFromVaultinum}>Hello From V</button>
             </header>
         </div>
